@@ -1,0 +1,2 @@
+# Mobile-student-learning-system
+The designed system is aim to used by the staffs and students in UniMAP. The development of the system is done by using Android Studio, which is an open-source to develop application that runnable on android operating system. Java is the domain programming language that applied to write the coding of the system. On the other hand, XML is another programming language that used to design the layout of the system. 
