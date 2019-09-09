@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.user.loginactivity.Main2Activity">
+
+    <Button
+        android:id="@+id/staff"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="144dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/staff"
+        android:onClick="onButtonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="144dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/student"
+        android:onClick="onButtonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/staff" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="295dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/welcome_to_login_system"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/staff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="42dp"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unimap" />
+</android.support.constraint.ConstraintLayout>
